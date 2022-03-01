@@ -52,7 +52,7 @@ async def HelpWatermark(bot, cmd):
 	await cmd.reply_text(
 		text=Config.USAGE_WATERMARK_ADDER,
 		parse_mode="Markdown",
-		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Source Code", url="https://github.com/AbirHasan2005/Watermark-Bot")]]),
+		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔰 Updates Channel 🔰", url="https://t.me/groupdcbots"), InlineKeyboardButton("🛡️ Support Group 🛡️", url="https://t.me/Groupdc")], [InlineKeyboardButton("🌻 Bots List 🌻", url="https://t.me/groupdcbots/7286")], [InlineKeyboardButton("Source Code 👻", url="https://t.me/dcbotss/29")]]),
 		disable_web_page_preview=True
 	)
 
@@ -418,7 +418,7 @@ async def button(bot, cmd: CallbackQuery):
 				return
 			except Exception:
 				await cmd.message.edit(
-					text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+					text="Something went Wrong. Contact my [Support Group](https://t.me/Groupdc).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
@@ -426,7 +426,7 @@ async def button(bot, cmd: CallbackQuery):
 		await cmd.message.edit(
 			text=Config.USAGE_WATERMARK_ADDER,
 			parse_mode="Markdown",
-			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]]),
+			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Bot List 🌻", url="https://t.me/groupdcbots/7286")]]),
 			disable_web_page_preview=True
 		)
 
@@ -443,7 +443,7 @@ async def button(bot, cmd: CallbackQuery):
 				user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
 				if user.status == "kicked":
 					await cmd.message.edit(
-						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/DevsZone).",
+						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Groupdcbots).",
 						parse_mode="markdown",
 						disable_web_page_preview=True
 					)
@@ -466,7 +466,7 @@ async def button(bot, cmd: CallbackQuery):
 				return
 			except Exception:
 				await cmd.message.edit(
-					text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+					text="Something went Wrong. Contact my [Support Group](https://t.me/groupdcbots).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
