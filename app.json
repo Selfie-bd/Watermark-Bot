@@ -22,6 +22,7 @@
         },
         "BOT_USERNAME": {
             "description": "Your Bot Username which you sent to @BotFather (Without [@])"
+            "required": false
         },
         "OWNER_ID": {
             "description": "Bot Owner UserID"
