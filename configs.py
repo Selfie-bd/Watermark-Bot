@@ -1,9 +1,5 @@
 # (c) @AbirHasan2005
 
-# Don't Forget That I Made This!
-# So Give Credits!
-
-
 import os
 
 
